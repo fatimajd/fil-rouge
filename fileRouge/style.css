@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+body{
+   
+    width: 100vw;
+    height: 100vh;
+    right: 0;
+    left: 0;
+    background-image: url("images/P1.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 90rem;
+    background-position-x: 10vw; 
+    overflow-x: hidden; 
+}
+
+
+.home {
+    display: flex;
+}
+
+.side-header{
+    background-color: transparent;
+    border: none;
+    border-right: solid;
+    border-color: black;
+    width: 4rem;
+    height: 90vh;
+    margin-top: 2rem;
+    position: fixed;
+}
+ .icone{
+   font-size: 38px;
+   margin-left: 10px;
+   margin-top: 1rem;
+}
+ul{
+    list-style-type:none;
+    font-family: Sitka Small;
+    font-size: 30px;
+    margin-top: 6rem;
+    margin-left: -23px;
+}
+
+.rect{
+    width: 14rem;
+    height: 2.8rem;
+    background-color: #FCF7F7;
+    border-radius: 14px;
+    color: rgb(0, 0, 0);
+    margin-left: 60vw;
+    margin-top: -46vh;
+    text-align: center;
+    position: relative;
+    display: flex;
+    
+}
+.rect p {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: text-top;
+    TOP: -8px;
+    left: 40px;
+   
+}
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: rgb(49, 128, 29);
+    border-radius: 50%;
+    display: inline-block;
+    POSITION: ABSOLUTE;
+    BOTTOM: 1em;
+    left: 1em;
+  }
+.logo{
+    width: 5%; 
+    position: fixed;
+    margin-left: 7.5%;
+}
+
+.pic1{
+    width: 22rem;
+    margin-left: 73vw;
+    /* transform: rotate(180deg); */
+    animation: rotation  7s linear infinite;
+}
+.pic2{
+    width: 16rem;
+    margin-left: 65vw;
+    animation: rotation 7s linear infinite ;
+}
+
+.plat {
+    margin-top: -74vh;
+    position: relative;
+}
+.plat2 {
+    margin-top: -1vh;
+    position: relative;
+}
+.pic3{
+    width: 8rem;
+    margin-left: 65vw;
+    animation: rotation 7s linear infinite ;
+}
+
+.plat3
+{
+    margin-top: -64vh;
+    position: relative;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .parag{
+    font-family: Tempus Sans ITC;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 200px;
+    width: 55rem;
+    margin-top: 90px;
+   
+      
+  }
+  .parag2{
+      color: #F6AE2D;
+      margin-left: 150px;
+      width: 25rem;
+      font-size: 25px;
+        text-align: center;
+
+  }
+ 
+ .btn-home {
+     display: flex;
+     margin-left: 26vw;
+     width: 27vw;
+ }
+
+ .btn{
+    font-family: 'Otomanopee One', sans-serif;
+    margin-right: 2vw;
+    background-color: transparent;
+   border: none;
+   border-bottom: solid;
+   border-color: black;
+   color: rgb(0, 0, 0);
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer;
+ }
+ .trusted{
+    font-family: Tempus Sans ITC;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 42rem;
+    width: 55rem;
+    color: #F6AE2D;
+    margin-top: 190px;
+ }
+
+ .container{
+    width: 26rem;
+    position: relative;
+    height: 4.8rem;
+    background-color: #FCF7F7;
+    border-radius: 14px;
+    margin-left: -8vw;
+    margin-top: 0rem;
+    text-align: center;
+ }
+
+ .container img {
+     /* position: relative; */
+     width: 20rem;
+ }
